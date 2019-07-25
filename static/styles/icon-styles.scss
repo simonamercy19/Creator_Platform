@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('./fonts/icomoon.eot?3u5879'), url('./fonts/icomoon.eot?3u5879#iefix') format('embedded-opentype'), url('./fonts/icomoon.ttf?3u5879') format('truetype'), url('./fonts/icomoon.woff?3u5879') format('woff'), url('./fonts/icomoon.svg?3u5879#icomoon') format('svg');
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon-search-mobile:before {
+    content: "\ea35";
+  }
+
+  .icon-shareIcon:before {
+    content: "\e966";
+  }
+
+  .icon-favoriteOutline:before {
+    content: "\e91f";
+  }
+  .icon-home-new:before {
+    content: "\ea30";
+  }
+  .icon-Featured-Creators:before {
+    content: "\e9f0";
+  }
+  .icon-subscribers:before {
+    content: "\e99c";
+  }
+  .icon-Upcoming-Events:before {
+    content: "\e9ee";
+  }
+  .icon-top-videos:before {
+    content: "\e9ef";
+  }
+  .icon-more:before {
+    content: "\e955";
+  }
+  .icon-patron:before {
+    content: "\e9e4";
+}
+.icon-gift:before {
+  content: "\e9e2";
+}
+.icon-forum:before {
+  content: "\e9e1";
+}
+.icon-feedmessage:before {
+  content: "\e974";
+}
+.icon-search:before {
+  content: "\e924";
+}
+.icon-filter:before {
+  content: "\e939";
+}

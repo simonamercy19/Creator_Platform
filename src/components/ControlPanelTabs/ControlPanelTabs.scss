@@ -1,0 +1,36 @@
+
+.control-panel-tabs-holder {
+    background: #f6f7f9;
+    height: 100vh;
+
+    .tabs-section {
+        width: 220px;
+        background: #ffffff;
+
+        .tab {
+            padding: 15px;
+
+            a {
+                text-decoration: none;
+                color: $secondary-color;
+            }
+        }
+        [data-selected="true"]{
+            background: $primary-color;
+    
+            a{
+                color: #ffffff;
+            }
+        }
+    }
+    .tabBody {
+
+        .title{
+            color: #2F2F2F;
+            font-size: 30px;
+            font-weight: 400;
+            margin-top: 0;
+        }
+    }
+    
+}

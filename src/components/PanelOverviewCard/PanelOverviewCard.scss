@@ -1,0 +1,43 @@
+.overview-card-holder{
+    .title{
+        color: #2F2F2F;
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: 0;
+    }
+    .card {
+        padding: 25px 10px 10px;
+        &:hover{
+            transform: none;
+        }
+
+        [class^="col-"]{
+            padding-bottom: 15px;
+
+            .icon-handler {
+                font-size: 25px;
+                vertical-align: middle;
+                color: $primary-color;
+            }
+            .content-hander{
+                width: calc(100% - 40px);
+                float: right;
+
+                .sub-text-title {
+                    font-family: 'Roboto Mono', monospace;
+                    font-weight: 500;
+                    color: $secondary-color;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                }
+
+                p{
+                    color: #a19898;
+                    font-size: 15px;
+                    font-weight: 200;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+}

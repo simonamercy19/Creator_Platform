@@ -1,0 +1,18 @@
+.creator-shop-holder {
+
+    .merch-holder {
+        margin-top: 0;
+        
+        .top-merch-cards {
+            display: flex;
+    
+            .card +.card {
+                margin-left: 10px;
+            }
+        }
+    }
+    
+    .title {
+        @include subHeading;
+    }
+}

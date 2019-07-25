@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 0,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "powermode.presets": "flames",
+    "powermode.enabled": true,
+    "prettier.eslintIntegration": true
+}

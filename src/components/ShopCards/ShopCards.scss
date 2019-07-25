@@ -1,0 +1,46 @@
+.shop-cards-holder {
+    margin-top: 30px;
+
+    .creator-details {
+        img {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .username {
+            display: inline-block;
+            font-weight: 500;
+            font-size: 15px;
+        }
+    }
+
+    .product-details {
+        img {
+            height: 240px;
+            width: auto;
+            object-fit: contain;
+            object-position: center;
+        }
+        .product-name {
+            @include ellipsis(1);
+            font-size: 18px;
+        }
+        .price {
+            font-size: 30px;
+            color: $primary-color;
+            margin: 15px 0;
+            font-weight: 600;
+        }
+        .decs {
+            margin: 25px 0 10px;
+            border-top: 1px solid #eeeeee;
+            @include ellipsis(3);
+            text-align: left;
+            padding-top: 30px;
+        }
+    }
+}

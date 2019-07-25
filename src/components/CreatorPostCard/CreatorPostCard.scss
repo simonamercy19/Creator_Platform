@@ -1,0 +1,55 @@
+.creator-post-card {
+    box-shadow: $card-shadow;
+    padding: 20px 0 10px;
+    background: #ffffff;
+    margin-bottom: 25px;
+
+    .row {
+        padding: 0 15px;
+    }
+
+    .creator-details {
+        padding-right: 0;
+        
+        img {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .username {
+            display: inline-block;
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+    .action-section {
+        line-height: 50px;
+        vertical-align: middle;
+    }
+    .post-details-holder {
+        padding: 15px 0 0;
+
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .text-holder {
+            margin: 15px;
+            @include ellipsis(3);
+        }
+    }
+}
+@media (max-width: 786px){
+    .action-section {
+        width: auto;
+        text-align: right;
+    }
+
+}
